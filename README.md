@@ -2,6 +2,8 @@
 
 A solver-development workflow for the FrontierOR Main track.
 
+Built for: [FrontierOR Challenge](https://frontieror-challenge.com/).
+
 This repository contains the product requirements, issue templates and project
 skeleton. Solver and framework implementation will be delivered through scoped
 issues. The target outcome is first overall Main on the organizer's final evaluation.
