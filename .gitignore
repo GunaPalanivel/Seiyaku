@@ -1,0 +1,30 @@
+# Local IDE instructions, raw research, audit environments and credentials.
+/.idea/
+/.playwright-mcp/
+/.playwright/
+/playwright-report/
+/test-results/
+/.vscode/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Authorized datasets, run outputs and submission archives are local artifacts.
+/competition/data/*
+!/competition/data/README.md
+/competition/runs/*
+!/competition/runs/README.md
+/competition/releases/*
+!/competition/releases/README.md
+*.zip
+*.tar
+*.tar.gz
+*.log

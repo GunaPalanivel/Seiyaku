@@ -1,0 +1,31 @@
+name: Experiment
+description: A controlled optimization or transfer comparison
+title: "[Experiment] "
+body:
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis and mechanism
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Frozen comparison protocol
+      description: Control, candidate, legal inputs, holdout boundary, seeds, provider and matched budgets.
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Acceptance and success criteria
+      description: Define the metric, promotion threshold, failure accounting and stop rule before running.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and limitations
+      description: Required raw-objective/resource receipts, provenance and unmeasured official boundaries.
+    validations:
+      required: true

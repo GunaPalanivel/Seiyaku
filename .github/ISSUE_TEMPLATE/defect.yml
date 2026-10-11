@@ -1,0 +1,32 @@
+name: Defect
+description: A reproducible correctness, integrity or runtime failure
+title: "[Defect] "
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Exact source revision, safe input, environment, command and actual result. Remove secrets.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior and contract
+      description: State the required behavior and source of the requirement.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact and evidence boundary
+      description: Distinguish reproduced failures from inferred risks; name affected gates.
+    validations:
+      required: true
+  - type: textarea
+    id: closure
+    attributes:
+      label: Acceptance, success and regression check
+      description: Retain the failing case and define the command/evidence proving the correction.
+    validations:
+      required: true

@@ -1,0 +1,39 @@
+name: Task
+description: A bounded implementation work package
+title: "[Task] "
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Problem and intended outcome
+      description: Describe the concrete input, output and behavior this task delivers.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and dependencies
+      description: Name the backlog ID, phase, affected paths, prerequisite issues and excluded work.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Checkable assertions that establish a correct deliverable.
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: Success criteria
+      description: The measured outcome; distinguish local correctness from official or competitive success.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification and evidence
+      description: Commands, negative controls, resource limits and receipts required to close this issue.
+    validations:
+      required: true
